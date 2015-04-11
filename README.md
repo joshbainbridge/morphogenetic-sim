@@ -1,15 +1,13 @@
-Craft:
+Morphogenetic Simulation:
 =======
 
-This repository is for an indpendent and experemental game called Craft. It is experimental in both style and procedrual gameplay blending between two and three dimensional worlds with varying detail and colour. Currently the controls are just Arrows + WASD keys but may chanage as features are added.
+This repository was my project submission for the Animation and Software Engineering module I did while studing at Bournemouth University. It is the simulation and rendering of a morphogenetic simulation, roughly based upon the paper 'Cellular Forms' by Andy lomas. I also wrote a multi-threaded pathtracer (based upon Kajiya's original paper) to visuallize the cells with an interactive user interface using NGL and the Qt library.
 
 ![Alt text](../readme-pictures/screenshot_01.png?raw=true)
 
 Required dependencies are:
 
-* C++11 Compiler
-* CMake 2.8
-* OpenGL 3.3 (Mavericks required on OS X)
-* GLFW 3.0
-* GLM
-* GLEW (Windows only)
+* Qt 5.3
+* Boost
+* NGL
+* Eigen (Included in source)
